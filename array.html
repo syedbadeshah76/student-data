@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Student Data Form</h1>
+    <form id="studentForm">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Enter first name">
+
+        <label for="middname">Middle Name:</label>
+        <input type="text" id="middname" placeholder="Enter middle name">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter last name">
+
+        <button type="button" onclick="studentdata()">Submit</button>
+    </form>
+
+    <h2>Student List</h2>
+    <div id="display"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
